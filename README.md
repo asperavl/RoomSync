@@ -80,16 +80,6 @@ The application will be running at `http://localhost:5173`.
 
 ---
 
-## Running Tests
-
-Run the full automated test suite (unit, concurrency, constraints, and security):
-
-```bash
-pytest
-```
-
----
-
 ## License
 
 MIT

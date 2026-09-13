@@ -36,6 +36,15 @@ wheels/
 htmlcov/
 calendar_sync_test.txt
 exclusion_constraint_test.txt
+tests/
+pytest.ini
+
+# Local Docs and Benchmarks
+PRODUCT.md
+TESTING.md
+scripts/*test*.py
+scripts/seed_and_benchmark.py
+scripts/simulate_sync_resilience.py
 
 # Node & Frontend
 node_modules/
