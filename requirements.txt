@@ -1,0 +1,27 @@
+# Core Web Framework & Server
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+
+# Database & ORM
+sqlalchemy>=2.0.28
+asyncpg>=0.29.0
+
+# Data Validation & Configuration
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+
+# Security & Encryption (Fernet AES for OAuth tokens at rest)
+cryptography>=42.0.0
+
+# HTTP Client & Resilience
+httpx>=0.27.0
+tenacity>=8.2.3
+
+# Data Generation & Benchmarking
+faker>=24.0.0
+
+# Testing & Code Coverage
+pytest>=8.1.0
+pytest-asyncio>=0.23.5
+pytest-cov>=4.1.0
